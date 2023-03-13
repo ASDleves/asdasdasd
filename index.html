@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bella Richárd</title>
     <link rel="stylesheet" href="style.css">
+    <script src="valid.js"></script>
 </head>
 <body>
-    <form action="/action_page.php">
+    <form name="validteszt" method="get" action="#" onsubmit="return validateForm()">
         <div class="sor">
         <label for="name">Vezetéknév:</label>
-        <input type="text" name="vNev">
+        <input type="text" title="Vezetéknév helye" pattern="[+A-Z][A-Za-z ]{3}" name="vezeteknev">
         </div>
         <div class="sor">
         <label for="lname">Keresztnév:</label>
