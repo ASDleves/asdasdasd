@@ -1,0 +1,12 @@
+.sor{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+input{
+    width: 25%;
+}
+input[type=submit]{
+    width: 50%;
+
+}
